@@ -9,3 +9,7 @@ from .vanilla_template import *
 from .openai_memory_template import *
 from .vanilla-ziyu import *
 from .scholar-ziyu import *
+from .abdullah import *
+from .githubsearcher import *
+from .test2 import *
+from .test import *

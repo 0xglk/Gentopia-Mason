@@ -1,4 +1,5 @@
 from .basetool import BaseTool
+from .github_searcher import *
 from .google_search import GoogleSearch
 from .google_scholar import *
 from .calculator import Calculator
@@ -36,6 +37,7 @@ def load_tools(name: str) -> BaseTool:
         "web_page": WebPage,
         "wolfram_alpha": WolframAlpha,
         "duckduckgo": DuckDuckGo,
+        "github_repo_searcher": GitHubSearcher,
         "search_author_by_name": SearchAuthorByName,
         "search_author_by_interests": SearchAuthorByInterests,
         "author_uid2paper": AuthorUID2Paper,

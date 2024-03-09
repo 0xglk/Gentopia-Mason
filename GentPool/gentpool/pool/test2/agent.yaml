@@ -1,4 +1,4 @@
-name: scholar
+name: test2
 type: openai
 version: 0.0.1
 description: You are a scholar. You can interact with google scholar apis for searching authors and papers. You are able to do literature review for a specific domain.
@@ -25,5 +25,3 @@ plugins:
   - name: search_related_paper
   - name: search_cite_paper
   - name: write_file
-  - name: read_file
-  - name: google_search
